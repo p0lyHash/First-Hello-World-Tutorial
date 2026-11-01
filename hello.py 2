@@ -1,0 +1,26 @@
+# This script introduces variables, user input, functions and string formatting.
+# Ask the user for their name.
+# Display a personalized greeting.
+# def: Used to define a function that can be reused later.
+# greet_user: The name given to our function. It describes its purpose.
+# name: A parameter that receives information passed to the function.
+# message: A variable used to store the greeting.
+# = : The assignment operator, used to assign a value to a variable.
+# f"": An f-string that allows us to insert variables directly into a string.
+# {}: Curly brackets used inside f-strings to include variables or expressions.
+# (): Parentheses used to define function parameters and pass arguments.
+# print(): Used to display information or text on the screen.
+# input(): Allows the user to enter information through the keyboard.
+# user_name: A variable that stores the name entered by the user.
+# greet_user(user_name): Calls the function and passes the user's name as an argument.
+# Indentation: Defines which instructions belong to a function or code block.
+# #: Used to write comments that Python does not execute.
+
+def greet_user(name): 
+    message = f"Hello, {name}! Wellcome to Python programming."
+    print(message)
+
+user_name = input("What is your name?")
+
+greet_user(user_name)
+
