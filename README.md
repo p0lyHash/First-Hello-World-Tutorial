@@ -1,2 +1,3 @@
 # First-Hello-World-*REDAME edit
-This is only a technical prove. This isn`t a really important step. 
+This step is particularly important `cause it ensures that all dependencies are correctly installed before running the project.
+Make sure not to skip the README step. 
